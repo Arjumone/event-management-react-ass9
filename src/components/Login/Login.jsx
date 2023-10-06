@@ -9,6 +9,7 @@ const Login = () => {
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col ">
+      <p className=" text-3xl font-semibold">Please Login</p>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <form onSubmit={handleLogin} className="card-body">
             <div className="form-control">
@@ -38,7 +39,7 @@ const Login = () => {
                 </a>
               </label>
             </div>
-            <div className="form-control mt-6">
+            <div className="form-control mt-3">
               <button className="btn btn-primary">Login</button>
             </div>
           </form>
