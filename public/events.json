@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "event_name": "Concerts and Music Festivals",
+        "image": "https://i.ibb.co/PcWjRK6/people-festival.jpg",
+        "price": "$50.00",
+        "description": "Experience the electrifying performance of live in concert! Join us for a night of unforgettable music, dancing, and fun."
+    },
+    {
+        "id": "2",
+        "event_name": "Theater and Performing Arts",
+        "image": "https://i.ibb.co/8BbK485/two-mime-artist-reading-manuscript-stage.jpg",
+        "price": "$65.00",
+        "description": "Step into a world of drama and intrigue with our theater production,Immerse yourself in captivating performances."
+    },
+    {
+        "id": "3",
+        "event_name": "Film Screenings and Premieres",
+        "image": "https://i.ibb.co/FxtXHQK/young-women-men-spending-free-time-cinema-together.jpg",
+        "price": "$12.00",
+        "description": "Be among the first to watch the exclusive premiere of Witness cinematic brilliance on the big screen with stars and filmmakers."
+    },
+    {
+        "id": "4",
+        "event_name": "Comedy Shows",
+        "image": "https://i.ibb.co/0p02xBF/front-view-man-working-as-ventriloquist.jpg",
+        "price": "$30.00",
+        "description": "Get ready to burst into laughter with our lineup of top-notch comedians. Enjoy an evening of hilarious jokes.."
+    },
+    {
+        "id": "5",
+        "event_name": "Sports Events",
+        "image": "https://i.ibb.co/GWGFBjT/stadium-one-runner.jpg",
+        "price": "$55.00",
+        "description": "Cheer for your favorite team as they compete in a thrilling match. Experience the adrenaline and the excitement."
+    },
+    {
+        "id": "6",
+        "event_name": "Business Events",
+        "image": "https://i.ibb.co/Y7sTqgP/female-business-executive-giving-speech.jpg",
+        "price": "$80.00",
+        "description": "Organization events allow employees to have a space to have fun with their coworkers while completing activities."
+    }
+]
