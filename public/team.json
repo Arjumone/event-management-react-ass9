@@ -1,0 +1,111 @@
+[
+    {
+      "id": "1",
+      "persone_name": "John Smith",
+      "phone": "123-456-7890",
+      "address": "123 Main St, Cityville, USA",
+      "About_him/her": "I am a passionate individual who loves exploring new technologies and creating innovative solutions.",
+      "partner_name": "Jane Doe",
+      "image": "https://i.ibb.co/1XYXf6x/john-smith.jpg"
+    },
+    {
+      "id": "2",
+      "persone_name": "Alice Johnson",
+      "phone": "234-567-8901",
+      "address": "456 Elm St, Townsville, USA",
+      "About_him/her": "I enjoy outdoor activities and have a keen interest in environmental conservation.",
+      "partner_name": "Bob Brown",
+      "image": "https://i.ibb.co/6RYGBxJ/alice-johnson.jpg"
+    },
+    {
+      "id": "3",
+      "persone_name": "Eva Lee",
+      "phone": "345-678-9012",
+      "address": "789 Oak St, Villageland, USA",
+      "About_him/her": "I am an avid traveler and food enthusiast. Exploring different cultures and cuisines is my passion.",
+      "partner_name": "Michael Green",
+      "image": "https://i.ibb.co/CtGRGsw/eva-lee.jpg"
+    },
+    {
+      "id": "4",
+      "persone_name": "David White",
+      "phone": "456-789-0123",
+      "address": "101 Pine St, Hilltop, USA",
+      "About_him/her": "I am a fitness enthusiast and enjoy helping others achieve their health and wellness goals.",
+      "partner_name": "Emily Adams",
+      "image": "https://i.ibb.co/ZGWsYxJ/david-white.jpg"
+    },
+    {
+      "id": "5",
+      "persone_name": "Sarah Miller",
+      "phone": "567-890-1234",
+      "address": "321 Maple Ave, Riverside, USA",
+      "About_him/her": "I am a creative artist passionate about painting and expressing emotions through art.",
+      "partner_name": "Chris Wilson",
+      "image": "https://i.ibb.co/RST4WXB/sarah-miller.jpg"
+    },
+    {
+      "id": "6",
+      "persone_name": "Daniel Young",
+      "phone": "678-901-2345",
+      "address": "555 Cedar St, Lakeside, USA",
+      "About_him/her": "I am a technology enthusiast and love developing software applications that make a difference.",
+      "partner_name": "Linda Hall",
+      "image": "https://i.ibb.co/wCp5R12/daniel-young.jpg"
+    },
+    {
+      "id": "7",
+      "persone_name": "Grace King",
+      "phone": "789-012-3456",
+      "address": "909 Willow Dr, Forestville, USA",
+      "About_him/her": "I am passionate about gardening and have a green thumb. I love nurturing plants and flowers.",
+      "partner_name": "James Parker",
+      "image": "https://i.ibb.co/N6Nzyfj/grace-king.jpg"
+    },
+    {
+      "id": "8",
+      "persone_name": "Oliver Clark",
+      "phone": "890-123-4567",
+      "address": "606 Pine Dr, Mountainview, USA",
+      "About_him/her": "I am a book lover and enjoy spending my free time immersed in captivating novels and stories.",
+      "partner_name": "Sophia Johnson",
+      "image": "https://i.ibb.co/JF8RyBR/oliver-clark.jpg"
+    },
+    {
+      "id": "9",
+      "persone_name": "Emma Scott",
+      "phone": "901-234-5678",
+      "address": "707 Cedar Ave, Rivertown, USA",
+      "About_him/her": "I am an animal lover and advocate for animal rights. I enjoy volunteering at local shelters.",
+      "partner_name": "William Turner",
+      "image": "https://i.ibb.co/J5YCf5k/emma-scott.jpg"
+    },
+    {
+      "id": "10",
+      "persone_name": "Henry Hill",
+      "phone": "012-345-6789",
+      "address": "808 Elm Dr, Hillside, USA",
+      "About_him/her": "I am passionate about photography and capturing the beauty of nature and everyday life.",
+      "partner_name": "Sophie Adams",
+      "image": "https://i.ibb.co/p3SjSgT/henry-hill.jpg"
+    },
+    {
+      "id": "11",
+      "persone_name": "Amelia Ward",
+      "phone": "111-222-3333",
+      "address": "909 Maple Ave, Woodland, USA",
+      "About_him/her": "I am a coffee enthusiast and enjoy exploring different coffee flavors and brewing techniques.",
+      "partner_name": "Edward Johnson",
+      "image": "https://i.ibb.co/MP9hQdd/amelia-ward.jpg"
+    },
+    {
+      "id": "12",
+      "persone_name": "Lucas Reed",
+      "phone": "222-333-4444",
+      "address": "101 Oak Dr, Greenfield, USA",
+      "About_him/her": "I am an adventure seeker and love extreme sports like skydiving and rock climbing.",
+      "partner_name": "Ava Martin",
+      "image": "https://i.ibb.co/xfDN8Np/lucas-reed.jpg"
+    }
+  ]
+  

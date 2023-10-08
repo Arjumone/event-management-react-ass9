@@ -1,44 +1,75 @@
 [
     {
-        "id": "1",
-        "event_name": "Concerts and Music Festivals",
-        "image": "https://i.ibb.co/PcWjRK6/people-festival.jpg",
-        "price": "$50.00",
-        "description": "Experience the electrifying performance of live in concert! Join us for a night of unforgettable music, dancing, and fun."
+      "id": "1",
+      "event_name": "Concerts and Music Festivals",
+      "image": "https://i.ibb.co/PcWjRK6/people-festival.jpg",
+      "price": "$50.00",
+      "description": "Experience the electrifying performance of live in concert! Join us for a night of unforgettable music, dancing, and fun.",
+      "address": "123 Main St, Cityville, USA",
+      "phone": "123-456-7890",
+      "email": "info@example.com",
+      "members_name": "John Doe, Jane Smith",
+      "owner_name": "Event Organizer ABC"
     },
     {
-        "id": "2",
-        "event_name": "Theater and Performing Arts",
-        "image": "https://i.ibb.co/8BbK485/two-mime-artist-reading-manuscript-stage.jpg",
-        "price": "$65.00",
-        "description": "Step into a world of drama and intrigue with our theater production,Immerse yourself in captivating performances."
+      "id": "2",
+      "event_name": "Theater and Performing Arts",
+      "image": "https://i.ibb.co/8BbK485/two-mime-artist-reading-manuscript-stage.jpg",
+      "price": "$65.00",
+      "description": "Step into a world of drama and intrigue with our theater production, Immerse yourself in captivating performances.",
+      "address": "456 Elm St, Theaterville, USA",
+      "phone": "987-654-3210",
+      "email": "theater@example.com",
+      "members_name": "Alice Johnson, Bob Brown",
+      "owner_name": "Theater Group XYZ"
     },
     {
-        "id": "3",
-        "event_name": "Film Screenings and Premieres",
-        "image": "https://i.ibb.co/FxtXHQK/young-women-men-spending-free-time-cinema-together.jpg",
-        "price": "$12.00",
-        "description": "Be among the first to watch the exclusive premiere of Witness cinematic brilliance on the big screen with stars and filmmakers."
+      "id": "3",
+      "event_name": "Film Screenings and Premieres",
+      "image": "https://i.ibb.co/FxtXHQK/young-women-men-spending-free-time-cinema-together.jpg",
+      "price": "$12.00",
+      "description": "Be among the first to watch the exclusive premiere of Witness cinematic brilliance on the big screen with stars and filmmakers.",
+      "address": "789 Oak St, Cinemaville, USA",
+      "phone": "555-123-4567",
+      "email": "movies@example.com",
+      "members_name": "Eva Lee, Michael Brown",
+      "owner_name": "Movie Production Company"
     },
     {
-        "id": "4",
-        "event_name": "Comedy Shows",
-        "image": "https://i.ibb.co/0p02xBF/front-view-man-working-as-ventriloquist.jpg",
-        "price": "$30.00",
-        "description": "Get ready to burst into laughter with our lineup of top-notch comedians. Enjoy an evening of hilarious jokes.."
+      "id": "4",
+      "event_name": "Comedy Shows",
+      "image": "https://i.ibb.co/0p02xBF/front-view-man-working-as-ventriloquist.jpg",
+      "price": "$30.00",
+      "description": "Get ready to burst into laughter with our lineup of top-notch comedians. Enjoy an evening of hilarious jokes.",
+      "address": "101 Laugh St, Humorville, USA",
+      "phone": "888-987-6543",
+      "email": "laughs@example.com",
+      "members_name": "Chris Johnson, Emily White",
+      "owner_name": "Comedy Club XYZ"
     },
     {
-        "id": "5",
-        "event_name": "Sports Events",
-        "image": "https://i.ibb.co/GWGFBjT/stadium-one-runner.jpg",
-        "price": "$55.00",
-        "description": "Cheer for your favorite team as they compete in a thrilling match. Experience the adrenaline and the excitement."
+      "id": "5",
+      "event_name": "Sports Events",
+      "image": "https://i.ibb.co/GWGFBjT/stadium-one-runner.jpg",
+      "price": "$55.00",
+      "description": "Cheer for your favorite team as they compete in a thrilling match. Experience the adrenaline and the excitement.",
+      "address": "321 Stadium Ave, Sportsville, USA",
+      "phone": "777-555-9999",
+      "email": "sportsfans@example.com",
+      "members_name": "David Lee, Sarah Johnson",
+      "owner_name": "Sports Events Inc."
     },
     {
-        "id": "6",
-        "event_name": "Business Events",
-        "image": "https://i.ibb.co/Y7sTqgP/female-business-executive-giving-speech.jpg",
-        "price": "$80.00",
-        "description": "Organization events allow employees to have a space to have fun with their coworkers while completing activities."
+      "id": "6",
+      "event_name": "Business Events",
+      "image": "https://i.ibb.co/Y7sTqgP/female-business-executive-giving-speech.jpg",
+      "price": "$80.00",
+      "description": "Organization events allow employees to have a space to have fun with their coworkers while completing activities.",
+      "address": "555 Corporate Blvd, Business City, USA",
+      "phone": "111-222-3333",
+      "email": "business@example.com",
+      "members_name": "Alex Brown, Jessica Green",
+      "owner_name": "Business Events Co."
     }
-]
+  ]
+  

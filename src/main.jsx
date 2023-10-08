@@ -8,10 +8,16 @@ import {
 } from "react-router-dom";
 import MainLayout from './components/Layout/MainLayout';
 import Home from './components/Home/Home';
-import Login from './components/Login/Login';
-import Register from './components/Register/Register';
 import ErrorPage from './components/Error/ErrorPage';
-import EventDetails from './components/EventDetails/EventDetails';
+// import Services from './components/Services/Services';
+import TeamMember from './components/TeamMember/TeamMember';
+import Blogs from './components/Blogs/Blogs';
+import PrivateRoute from './routes/PrivateRoute';
+
+import Login from './Login/Login';
+import Register from './Register/Register';
+import AuthProvider from './Provider/AuthProvider';
+import Services from './components/Home/Services';
 
 const router = createBrowserRouter([
   {
@@ -25,9 +31,17 @@ const router = createBrowserRouter([
         loader:()=>fetch("./events.json")
       },
       {
-        path:'/event/:id',
-        element:<EventDetails></EventDetails>,
+        path:'/services/:id',
+        element:<PrivateRoute><Services></Services></PrivateRoute>,
         loader:()=>fetch("./events.json")
+      },
+      {
+        path:'/team',
+        element:<PrivateRoute><TeamMember></TeamMember></PrivateRoute> 
+      },
+      {
+        path:'/blogs',
+        element:<PrivateRoute><Blogs></Blogs></PrivateRoute>
       },
       {
         path:'/login',
@@ -37,23 +51,13 @@ const router = createBrowserRouter([
         path:'/register',
         element:<Register></Register>
       },
-      {
-        path:'/',
-        element:<Home></Home>
-      },
-      {
-        path:'/',
-        element:<Home></Home>
-      },
-      {
-        path:'/',
-        element:<Home></Home>
-      },
     ]
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <RouterProvider router={router} />
+   
+   <AuthProvider><RouterProvider router={router} /></AuthProvider>
+   
   </React.StrictMode>,
 )
