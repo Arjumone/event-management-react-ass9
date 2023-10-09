@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-
+import swal from 'sweetalert';
 const EventContainer = ({event}) => {
     const {id,image,event_name,price,description}= event;
     const handleEvents =()=>{
@@ -11,17 +11,17 @@ const EventContainer = ({event}) => {
       if(!eventItems){
         addEventArray.push(event);
         localStorage.setItem("event",JSON.stringify(addEventArray));
-        alert ("successfully added")
+        swal("Successfully added!");
       }
       else{
-        const isExits = eventItems.find(event = event.id === id)
+        const isExits = eventItems.find(event => event.id === id)
         if(!isExits){
           addEventArray.push(...eventItems,event)
           localStorage.setItem("event",JSON.stringify(addEventArray))
-          alert("good job")
+          swal("Successfully added!");
         }
         else{
-          alert("error")
+          swal( "Already added!", "error");
         }
       }
     }

@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-
+import swal from 'sweetalert';
 import { AuthContext } from "../Provider/AuthProvider";
 import Navbar from "../Shared/Navbar/Navbar";
 
