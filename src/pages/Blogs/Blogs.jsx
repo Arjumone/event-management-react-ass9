@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import Blog from "../Blog/Blog";
+import Blog from "./Blog";
+import Navbar from "../../Shared/Navbar/Navbar";
+
 
 
 const Blogs = () => {
@@ -10,9 +12,10 @@ const Blogs = () => {
         .then(data=>setBlogs(data))
     },[])
     return (
-        <div>
-            <h2>Blog Details</h2>
-            <div className=" gap-5 grid grc1 md:grid-cols-2 lg:grid-cols-3">
+        <div className=" max-w-6xl mx-auto">
+            <Navbar></Navbar>
+            <h2 className="text-sky-800 text-center text-4xl font-semibold">Event Related Blogs</h2>
+            <div className=" gap-5 grid grc1 md:grid-cols-2 lg:grid-cols-3 bg-sky-300 p-6 mt-3">
                 {
                     blogs.map(blg=><Blog key={blg.id} blg={blg}></Blog>)
                 }

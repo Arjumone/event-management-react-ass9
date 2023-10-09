@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar/Navbar";
+
 import { useContext } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
+import Navbar from "../Shared/Navbar/Navbar";
 
 
 const Register = () => {

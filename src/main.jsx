@@ -5,19 +5,17 @@ import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
-import MainLayout from './components/Layout/MainLayout';
-import Home from './components/Home/Home';
+} from "react-router-dom"
 import ErrorPage from './components/Error/ErrorPage';
-// import Services from './components/Services/Services';
-import TeamMember from './components/TeamMember/TeamMember';
-import Blogs from './components/Blogs/Blogs';
-import PrivateRoute from './routes/PrivateRoute';
-
-import Login from './Login/Login';
-import Register from './Register/Register';
+import MainLayout from './MainLayout/MainLayout';
+import Home from './pages/Home/Home';
+import Services from './pages/Services';
+import TeamMember from './pages/TeamMember/TeamMember';
+import Blogs from './pages/Blogs/Blogs';
+import Login from './pages/Login';
+import Register from './pages/Register';
 import AuthProvider from './Provider/AuthProvider';
-import Services from './components/Home/Services';
+import PrivateRoute from './routes/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -27,13 +25,13 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
-        element:<Home></Home>,
+        element: <Home></Home>,
         loader:()=>fetch("./events.json")
       },
       {
         path:'/services/:id',
         element:<PrivateRoute><Services></Services></PrivateRoute>,
-        loader:()=>fetch("./events.json")
+        // loader:()=>fetch("./events.json")
       },
       {
         path:'/team',

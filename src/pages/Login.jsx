@@ -1,7 +1,8 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import Navbar from "../components/Navbar/Navbar";
+
 import { AuthContext } from "../Provider/AuthProvider";
+import Navbar from "../Shared/Navbar/Navbar";
 
 
 

@@ -1,0 +1,7 @@
+.banner{
+    background-image: url("../../assets/dd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    /* background-color: aqua; */
+}

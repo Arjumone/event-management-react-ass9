@@ -25,7 +25,7 @@ const Navbar = () => {
         <li><NavLink to='/register'>Register</NavLink></li>
     </>
     return (
-        <div className="navbar text-amber-300 max-w-6xl mx-auto">
+        <div className="navbar text-sky-400 text-xl font-bold max-w-6xl mx-auto">
   <div className="navbar-start">
     <div className="dropdown gap-6">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -35,9 +35,9 @@ const Navbar = () => {
         {navLinks}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl text-amber-500">Entertain<span className=" text-amber-500">Events</span></a>
+    <a className="btn btn-ghost normal-case text-2xl font-bold text-sky-500">Entertain<span className=" text-sky-500">Events</span></a>
   </div>
-  <div className="navbar-center sm:hidden lg:visible  lg:flex">
+  <div className="navbar-center sm:hidden lg:display  lg:flex">
     <ul className="menu menu-horizontal px-1">
       {navLinks}
     </ul>
