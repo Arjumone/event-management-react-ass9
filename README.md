@@ -4,4 +4,4 @@
 - create private route
 - useState and useEffect hook are use
 - also use firebase store for user
-- live link added readme.md file 
+- live link added readme.md file in github
