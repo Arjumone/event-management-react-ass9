@@ -33,6 +33,13 @@ const Home = () => {
     </div>
   </div>
 </div>
+              <h2 className=" my-2 text-center text-3xl font-bold ">Choose the Logo for Events</h2>
+            <div className=" max-w-6xl mx-auto flex  my-4 gap-5 justify-center items-center bg-sky-200 p-5">
+              <img className=" h-44 w-44 rounded-full" src="https://i.ibb.co/S500GB9/1.jpg" alt="" />
+              <img className=" h-44 w-44 rounded-full" src="https://i.ibb.co/VvdHSYc/2.jpg" alt="" />
+              <img className=" h-44 w-44 rounded-full" src="https://i.ibb.co/R44P1tr/3.jpg" alt="" />
+              <img className=" h-44 w-44 rounded-full" src="https://i.ibb.co/Yy9pWjZ/4.jpg" alt="" />
+            </div>
        </div>
        <Footer></Footer>
         </div>

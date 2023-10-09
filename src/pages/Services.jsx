@@ -16,8 +16,10 @@ const Services = () => {
     },[id,events])
     
     return (
-        <div>
-            <Navbar></Navbar>
+        <div className="">
+            <div className="bg-sky-500 max-w-6xl mx-auto">
+      <Navbar></Navbar>
+      </div>
             <div className="">
                 <h2 className=" text-center font-semibold my-3 text-3xl">All Events Services are here</h2>
                 <div className=" max-w-6xl mx-auto">

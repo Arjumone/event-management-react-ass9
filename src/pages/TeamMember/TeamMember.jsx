@@ -12,9 +12,11 @@ const TeamMember = () => {
         .then(data=>setTeams(data))
     },[])
     return (
-        <div className=" mx-auto max-w-6xl">
-            <Navbar></Navbar>
-            <h2 className=" text-sky-900 font-semibold text-4xl text-center my-3 ">Team Members Details</h2>
+        <div className="max-w-6xl mx-auto">
+            <div className="bg-sky-500 ">
+      <Navbar></Navbar>
+      </div>
+            <h2 className=" text-sky-600 font-semibold text-4xl text-center my-3 ">Team Members Details</h2>
             <div className=" gap-5 grid grc1 md:grid-cols-2 lg:grid-cols-3">
                 {
                     teams.map(team=><Team key={team.id} team={team}></Team>)
